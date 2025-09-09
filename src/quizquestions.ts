@@ -10,10 +10,10 @@ export const questions = [
     "Ryssland"
   ],
   images: [
-  "/public/images/USA Flag.jpg",
-  "/public/images/Kina Flag.jpg",
-  "/public/images/Canada Flag.jpg",
-  "/public/images/Russia Flag.jpg"
+  "images/USA Flag 2.jpg",
+  "images/Kina Flag.jpg",
+  "images/Canada Flag.jpg",
+  "images/Russia Flag.jpg"
   ],
   correctIndex: 2
 },
@@ -27,10 +27,10 @@ export const questions = [
     "Mississippi"
   ],
   images: [
-    "/public/images/Brasilien.png",
-    "/public/images/Egypten.png",
-    "/public/images/Kina Flag.jpg",
-    "/public/images/USA Flag 2.jpg"
+    "images/Brasilien.png",
+    "images/Egypten.png",
+    "images/Kina Flag.jpg",
+    "images/USA Flag 2.jpg"
 ],
   correctIndex: 1
 },
@@ -44,10 +44,10 @@ export const questions = [
     "Sydamerika"
   ],
   images: [
-  "/public/images/EU Flag.png",
-  "/public/images/Africa Flag.png",
-  "/public/images/ASEAN Flag.png",
-  "/public/images/UNASUR Flag.png"
+  "images/EU Flag.png",
+  "images/Africa Flag.png",
+  "images/ASEAN Flag.png",
+  "images/UNASUR Flag.png"
   ],
   correctIndex: 1
 },
@@ -61,10 +61,10 @@ export const questions = [
     "Stilla havet"
   ],
   images: [
-    "/public/images/Map of the World.png",
-    "/public/images/Map of the World.png",
-    "/public/images/Map of the World.png",
-    "/public/images/Map of the World.png"
+    "images/Map of the World.png",
+    "images/Map of the World.png",
+    "images/Map of the World.png",
+    "images/Map of the World.png"
 ],
   correctIndex: 2
 },
@@ -78,10 +78,10 @@ export const questions = [
     "Canberra"
   ],
   images: [
-    "/public/images/Australia Flag.jpg",
-    "/public/images/Australia Flag.jpg",
-    "/public/images/Australia Flag.jpg",
-    "/public/images/Australia Flag.jpg"
+    "images/Australia Flag.jpg",
+    "images/Australia Flag.jpg",
+    "images/Australia Flag.jpg",
+    "images/Australia Flag.jpg"
 ],
   correctIndex: 3
 },
@@ -95,10 +95,10 @@ export const questions = [
     "Indonesien"
   ],
   images: [
-  "/public/images/USA Flag 2.jpg",
-  "/public/images/India Flag.jpg",
-  "/public/images/Kina Flag.jpg",
-  "/public/Images/Indonesia Flag.jpg"
+  "images/USA Flag 2.jpg",
+  "images/India Flag.jpg",
+  "images/Kina Flag.jpg",
+  "images/Indonesia Flag.jpg"
   ],
   correctIndex: 1
 },
@@ -112,10 +112,10 @@ export const questions = [
     "Madagaskar"
   ],
   images: [
-  "/public/images/Greenland Flag.png",
-  "/public/images/Papua New Guinea Flag.jpg",
-  "/public/images/Borneo Flag.png",
-  "/public/images/Madagascar Flag.jpg"
+  "images/Greenland Flag.png",
+  "images/Papua New Guinea Flag.jpg",
+  "images/Borneo Flag.png",
+  "images/Madagascar Flag.jpg"
   ],
   correctIndex: 0
 },
@@ -129,10 +129,10 @@ export const questions = [
     "Himalaya"
   ],
   images: [
-    "/public/images/Mountain Range.jpg",
-    "/public/images/Mountain Range.jpg",
-    "/public/images/Mountain Range.jpg",
-    "/public/images/Mountain Range.jpg"
+    "images/Mountain Range.jpg",
+    "images/Mountain Range.jpg",
+    "images/Mountain Range.jpg",
+    "images/Mountain Range.jpg"
 ],
   correctIndex: 2
 },
@@ -146,10 +146,10 @@ export const questions = [
     "Spanien"
   ],
   images: [
-  "/public/images/Polen Flag.jpg",
-  "/public/images/Austria Flag.jpg",
-  "/public/images/Thailand Flag.jpg",
-  "/public/images/Spain Flag.png"
+  "images/Polen Flag.jpg",
+  "images/Austria Flag.jpg",
+  "images/Thailand Flag.jpg",
+  "images/Spain Flag.png"
   ],
   correctIndex: 1
 },
@@ -163,10 +163,10 @@ export const questions = [
     "Themsen"
   ],
   images: [
-  "/public/images/EU Flag.png",
-  "/public/images/France Flag.jpg",
-  "/public/images/EU Flag.png",
-  "/public/images/England.png"
+  "images/EU Flag.png",
+  "images/France Flag.jpg",
+  "images/EU Flag.png",
+  "images/England.png"
   ],
   correctIndex: 1
 }

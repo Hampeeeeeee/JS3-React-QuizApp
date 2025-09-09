@@ -35,6 +35,7 @@ div {
 }
 
 h3 {
+    margin-left: 20px;
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
@@ -45,6 +46,21 @@ h3 {
     height: 32px;
     border-radius: 8px;
     box-shadow: #969696 2px 2px 5px;
+}
+
+.option.selected {
+    background: #d4edda;
+    border-radius: 8px;
+}
+
+.option.correct {
+    background: #28a745;
+    border-radius: 8px;
+}
+
+.option.incorrect {
+    background: #dc3545;
+    border-radius: 8px;
 }
 
 ul {
@@ -75,4 +91,22 @@ ul li:hover {
 li:hover {
     transform: scale(1.05);
     transition: transform 0.2s;
+}
+
+.controlNextBtn {
+    background: #fffae1;
+    color: linear-gradient(160deg, #5F0F40, #310E68);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+.controlNextBtn:hover {
+    background: #fffae1;
+    color: linear-gradient(160deg, #5F0F40, #310E68);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
 }
