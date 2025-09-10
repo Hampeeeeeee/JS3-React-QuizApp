@@ -17,8 +17,10 @@ const Quiz = () => {
   };
 
   const handleCheck = () => {
+    const updatedAnswers = [...answers, selected];
     setShowResult(true);
-    setAnswers([...answers, selected]);
+    setAnswers(updatedAnswers);
+    localStorage.setItem("quizAnswers", JSON.stringify(updatedAnswers));
   }
 
   const handleNext = () => {
@@ -32,8 +34,8 @@ const Quiz = () => {
   if (current >= questions.length) {
     return (
       <div>
-        <h2>Quiz Klart!</h2>
-        <Link to="/Result">Visa resultat</Link>
+        <h1>Inga frågor kvar!</h1>
+        <Link className="showResult" to="/Result">Visa resultat</Link>
       </div>
     );
   }

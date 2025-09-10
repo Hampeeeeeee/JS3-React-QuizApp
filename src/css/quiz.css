@@ -110,3 +110,13 @@ li:hover {
     transform: scale(1.05);
     transition: transform 0.2s ease-in-out;
 }
+
+.showResult {
+    background: #fffae1;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+}
